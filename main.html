@@ -3,14 +3,38 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+	.hero{
+		display:flex;
+		justify-content:space-between;
+		flex-direction:row;
+		flex-wrap:wrap;
+		align-items:center;
+		padding:10px;
+	}
+	.hero img{
+		width:60%;
+		height:200px;
+	}
+	.box{
+		text-align:center;
+		font-size:10px;
+	}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<div class="hero">
+	<img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="heroo">
+	
+	<div class="box"><h3>Welcome to my Pinterst clone</h3>
+	<p>Discover new inspiration and save your favourite ideas</p>
+	<button style="background-color:orange;">Explore Now</button>
+	</div>
+</div>
 </body>
 
 </html>
